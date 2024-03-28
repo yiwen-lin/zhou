@@ -195,7 +195,7 @@
   --paragraph-max-font-size: 18;
   --paragraph-min-font-size: 16;
   --paragraph-line-height: 1.8;
-  --paragraph-color-light: #cccccc;
+  --paragraph-color-light: #aaaaaa;
   --paragraph-color-dark: #262626;
   /* Dropcap */
   --dropcap-max-font-size: 110;
@@ -6832,7 +6832,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   .paragraph {
-    font-size: calc(var(--paragraph-min-font-size) * 1px + (var(--paragraph-max-font-size) - var(--paragraph-min-font-size)) * ((100vw - 320px) / 2240));
+    font-size: calc(var(--paragraph-min-font-size) * 0.8px + (var(--paragraph-max-font-size) - var(--paragraph-min-font-size)) * ((100vw - 320px) / 2240));
   }
 }
 @media screen and (min-width: 2560px) {
