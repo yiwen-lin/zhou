@@ -146,49 +146,49 @@
   /* XL heading */
   --xl-max-font-size: 188;
   --xl-min-font-size: 54;
-  --xl-line-height: 1.1;
+  --xl-line-height: 1.2;
   --xl-color-light: #eeece6;
   --xl-color-dark: #333333;
   /* h1 heading */
   --h1-max-font-size: 104;
   --h1-min-font-size: 35;
-  --h1-line-height: 1.13;
+  --h1-line-height: 1.3;
   --h1-color-light: #eeece6;
   --h1-color-dark: #333333;
   /* h2 heading */
   --h2-max-font-size: 65;
   --h2-min-font-size: 31;
-  --h2-line-height: 1.31;
+  --h2-line-height: 1.3;
   --h2-color-light: #eeece6;
   --h2-color-dark: #333333;
   /* h3 heading */
   --h3-max-font-size: 42;
   --h3-min-font-size: 24;
-  --h3-line-height: 1.29;
+  --h3-line-height: 1.4;
   --h3-color-light: #eeece6;
   --h3-color-dark: #333333;
   /* h4 heading */
   --h4-max-font-size: 26;
   --h4-min-font-size: 22;
-  --h4-line-height: 1.62;
+  --h4-line-height: 1.8;
   --h4-color-light: #ffffff;
   --h4-color-dark: #262626;
   /* h5 heading */
   --h5-max-font-size: 18;
   --h5-min-font-size: 18;
-  --h5-line-height: 1.6;
+  --h5-line-height: 1.8;
   --h5-color-light: #ffffff;
   --h5-color-dark: #262626;
   /* h6 heading */
   --h6-max-font-size: 14;
   --h6-min-font-size: 14;
-  --h6-line-height: 1.6;
+  --h6-line-height: 1.8;
   --h6-color-light: #ffffff;
   --h6-color-dark: #262626;
   /* Blockquote */
   --blockquote-max-font-size: 24;
   --blockquote-min-font-size: 16;
-  --blockquote-line-height: 1.6;
+  --blockquote-line-height: 1.8;
   --blockquote-color-light: #ffffff;
   --blockquote-color-dark: #262626;
   /* Paragraph */
@@ -259,6 +259,7 @@ body {
   line-height: 2;
   color: var(--paragraph-color-dark);
   word-wrap: break-word;
+  line-break: strict;
 }
 
 .body_lock-scroll {
@@ -6774,19 +6775,19 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: calc(var(--h5-min-font-size) * 1px);
-  font-weight: bold;
+  font-size: calc(var(--h5-min-font-size) * 0.9px);
+  font-weight: 300;
   line-height: var(--h5-line-height);
   color: var(--h5-color-dark);
 }
 @media screen and (min-width: 320px) {
   h5, .h5 {
-    font-size: calc(var(--h5-min-font-size) * 1px + (var(--h5-max-font-size) - var(--h5-min-font-size)) * ((100vw - 320px) / 2240));
+    font-size: calc(var(--h5-min-font-size) * 0.9px + (var(--h5-max-font-size) - var(--h5-min-font-size)) * ((100vw - 320px) / 2240));
   }
 }
 @media screen and (min-width: 2560px) {
   h5, .h5 {
-    font-size: calc(var(--h5-max-font-size) * 1px);
+    font-size: calc(var(--h5-max-font-size) * 0.9px);
   }
 }
 
