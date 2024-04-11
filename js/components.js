@@ -7272,7 +7272,7 @@ class SectionMasthead extends ScrollAnimation {
 
 		tl.to(this.$itemsMeta, {
 			stagger: 0.2,
-			duration: 0.6,
+			duration: 1,
 			autoAlpha: 1,
 			y: '0%'
 		}, 'start');
