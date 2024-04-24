@@ -4111,6 +4111,10 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.overlay_dark-20 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .overlay_dark-30 {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -5744,7 +5748,7 @@ select {
 
 .swiper-lazy {
   max-width: 100%;
-  opacity: 0;
+  opacity: 0.5;
   visibility: hidden;
   transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
@@ -6809,8 +6813,8 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
   font-size: calc(var(--paragraph-min-font-size) * 1px);
   line-height: var(--paragraph-line-height);
   color: var(--paragraph-color-dark);

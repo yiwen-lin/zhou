@@ -36,6 +36,23 @@
   </head>
   <body>
     <div data-barba="wrapper">
+      <!-- PAGE PRELOADER -->
+      <div class="preloader text-center bg-dark-2" id="js-preloader" data-arts-theme-text="light">
+        <div class="preloader__content">
+          <div class="preloader__header mt-auto">
+            <div class="preloader__heading h3">ZHOU-QI Wu</div>
+            <div class="preloader__subline small-caps mt-1">photography</div>
+          </div>
+          <div class="preloader__counter h5"><span class="preloader__counter-number preloader__counter-current">0</span><span class="preloader__counter-divider">&nbsp;&nbsp;/&nbsp;&nbsp;</span><span class="preloader__counter-number preloader__counter-total">100</span></div>
+          <div class="preloader__circle"></div>
+        </div>
+      </div> 
+      <!-- - PAGE PRELOADER -->
+      <!-- Loading Spinner -->
+      <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+        <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+      </svg>
+      <!-- - Loading Spinner -->
       <!-- Transition Curtain-->
       <!-- TRANSITION CURTAINS -->
       <!-- page curtain AJAX transition -->
@@ -241,11 +258,11 @@
             <div class="section-masthead__inner container-fluid">
               <header class="row section-masthead__header justify-content-center">
                 <div class="col">
-                  <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Story・紀實攝影</span></div>
+                  <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Story｜圖片故事</span></div>
                   <div class="w-100"></div>
                   <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
                     <h1 class="h1 mt-0 mb-0">Growing pains</h1>
-                    <h5>國家地理攝影 銀獎</h5>
+                    <h5>2016 國家地理攝影 銀獎</h5>
                   </div>
                   <div class="w-100"></div>
                   <div class="section__headline mt-2 mx-auto"></div>
@@ -254,13 +271,11 @@
             </div>
             <div class="container-fluid">
               <div class="row justify-content-center">
-                <div class="col">
+                <div class="col-12">
                   <div class="section-image section-masthead__background section section_h-800 mt-medium">
-                    <div class="section-image__wrapper js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                      <div class="js-transition-img__transformed-el">
-                        <div class="lazy-bg" data-src="img/assets/project2/img-2-1.jpg"></div>
-                      </div>
-                    </div>
+                    <img src="img/assets/project2/img-2-1.jpg" alt="">
+                    <!-- <p class="text-center">Inside the factory, roughly 3000 people worked under the metal-sheet roof.</p> -->
+                    
                   </div>
                 </div>
               </div>
@@ -276,10 +291,9 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                <section class="section section-content clearfix pt-medium pb-medium text-center" data-arts-os-animation="data-arts-os-animation">
+                <section class="section section-content clearfix pt-medium  text-center" data-arts-os-animation="data-arts-os-animation">
                   <div class="section-content__inner">
                     <div class="w-100"></div>
-                    <!-- <div class="section__headline mb-1 mb-md-2 mx-auto"></div> -->
                     <div class="w-100"></div>
                     <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
                       <h3>Inside the factory, roughly 3000 people worked under the metal-sheet roof.</h3>
@@ -293,7 +307,7 @@
           <!-- - section MASTHEAD CONTAINER BOTTOM -->
           <div class="section-scroll" data-arts-scroll-trigger-hook="0.0" data-arts-scroll-offset="-50">
             <!-- section CONTENT #1 -->
-            <div class="section pb-medium">
+            <div class="section pt-large pb-medium">
               <div class="container">
                 <div class="row justify-content-between">
                   <div class="col-lg-6">
@@ -410,28 +424,6 @@
                 </div>
               </section>
 
-            <!-- section CONTENT #2 -->
-            <div class="section pt-medium">
-                <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-lg-6 offset-3">
-                    <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
-                        <div class="section-content__inner">
-                        <div class="w-100"></div>
-                        <div class="section-content__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                            <p>如同2、30年前工廠林立的台灣，到80年代中期撤資轉戰中國大陸；直至近來蔡英文總統提出的新南進政策，東協各國也陸續地敞開了大門，用豐沛和低廉的人力換取經濟成長。緬甸雖不同於鄰近的越南、泰國，擁有穩定的政局和外資，但這波社會轉型的浪潮並無分別心，也將緬甸捲入了全球化的大洋中。</p>
-                            <p>在資本體制的巨輪運作下，用最少的成本來達到最高的經濟效益，使得富商大賈們紛紛尋找如過往非洲大陸般的處女地來開發（剝削），時至今日雖已不同以往的蠻橫暴力，但本質上的巧取豪奪仍是不變的手段。</p>
-                            <p>或許外資這雙手的介入，是推動開發中國家經濟的一劑強心針，先進國家的外資注入，沸騰了經濟的發展，但縱觀歷史的脈絡，這層主從關係的弱勢方，必須得忍辱負重的熬過這必要之惡的成長痛，才得以有機會翻身。</p>
-                            <p>彼時台灣的環境與緬甸現況有幾分雷同，但承賴在長輩福蔭下的我，此時卻能癱坐在沙發上敲打鍵盤，整理著一年多前的緬甸之旅，父執輩所撐起的台灣奇蹟或許也是緬甸未來的縮影吧。</p>
-                            <p>我想此時此刻工廠裡的那些人們仍在賣力的工作，而這份揮灑血汗的努力，無不是為了更好的明天。或許相信這些種種的不公，只是社會成長轉型的陣痛期，也是為了下一代更好的未來所肩起的擔子，就可以更淡然地正視他們辛勤的身影了。</p>
-                        </div>
-                        </div>
-                    </section>
-                    </div>
-                </div>
-                </div>
-            </div>
-
             <!-- section 2-7 -->
             <section class="section section-image mt-medium mb-medium">
                 <div class="container js-gallery">
@@ -473,14 +465,37 @@
               </section>
 
               <!-- section 2-11 -->
-             <section class="section section-image mt-medium pb-medium">
-                <div class="js-gallery">
-                    <img src="img/assets/project2/img-2-11.jpg" alt="">
-                    <div class="col-lg-8 offset-2">
-                        <p class="text-center">Deep into the night, workers cram the bus like a can of sardines. The end of a typical day.</p>
-                    </div>
+            <section class="section section-image mt-medium mb-medium">
+              <div class="container js-gallery">
+                <img src="img/assets/project2/img-2-11.jpg" alt="">
+                <div class="col-lg-8 offset-2">
+                    <p class="text-center">Deep into the night, workers cram the bus like a can of sardines. The end of a typical day.</p>
                 </div>
+              </div>
             </section>
+
+
+            <!-- section CONTENT #2 -->
+            <div class="section mb-large">
+              <div class="container">
+              <div class="row justify-content-between">
+                  <div class="col-lg-6 offset-3">
+                  <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
+                      <div class="section-content__inner">
+                      <div class="w-100"></div>
+                      <div class="section-content__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                          <p>如同2、30年前工廠林立的台灣，到80年代中期撤資轉戰中國大陸；直至近來蔡英文總統提出的新南進政策，東協各國也陸續地敞開了大門，用豐沛和低廉的人力換取經濟成長。緬甸雖不同於鄰近的越南、泰國，擁有穩定的政局和外資，但這波社會轉型的浪潮並無分別心，也將緬甸捲入了全球化的大洋中。</p>
+                          <p>在資本體制的巨輪運作下，用最少的成本來達到最高的經濟效益，使得富商大賈們紛紛尋找如過往非洲大陸般的處女地來開發（剝削），時至今日雖已不同以往的蠻橫暴力，但本質上的巧取豪奪仍是不變的手段。</p>
+                          <p>或許外資這雙手的介入，是推動開發中國家經濟的一劑強心針，先進國家的外資注入，沸騰了經濟的發展，但縱觀歷史的脈絡，這層主從關係的弱勢方，必須得忍辱負重的熬過這必要之惡的成長痛，才得以有機會翻身。</p>
+                          <p>彼時台灣的環境與緬甸現況有幾分雷同，但承賴在長輩福蔭下的我，此時卻能癱坐在沙發上敲打鍵盤，整理著一年多前的緬甸之旅，父執輩所撐起的台灣奇蹟或許也是緬甸未來的縮影吧。</p>
+                          <p>我想此時此刻工廠裡的那些人們仍在賣力的工作，而這份揮灑血汗的努力，無不是為了更好的明天。或許相信這些種種的不公，只是社會成長轉型的陣痛期，也是為了下一代更好的未來所肩起的擔子，就可以更淡然地正視他們辛勤的身影了。</p>
+                      </div>
+                      </div>
+                  </section>
+                  </div>
+              </div>
+              </div>
+          </div>
 
           </div>
 
@@ -490,9 +505,9 @@
           <section class="container-fluid section section-nav-projects section-fullheight text-center" data-arts-os-animation="data-arts-os-animation">
             <div class="section-fullheight__inner section-nav-projects__inner_actual">
               <div class="section__divider section__divider_top"></div>
-              <header class="section-nav-projects__header"><a class="section-nav-projects__link" href="project03.html" data-pjax-link="flyingImage">
+              <header class="section-nav-projects__header"><a class="section-nav-projects__link" href="project05.html" data-pjax-link="flyingImage">
                   <div class="section-nav-projects__subheading small-caps mb-1 mb-md-2">Next Project</div>
-                  <h2 class="section-nav-projects__heading h1 mt-0 mb-0">Collecting weeds</h2></a></header>
+                  <h2 class="section-nav-projects__heading h1 mt-0 mb-0">個人</h2></a></header>
               <div class="section-nav-projects__wrapper-scroll-down text-center">
                 <div class="circle-button js-circle-button">
                   <!-- curved label -->
@@ -533,11 +548,11 @@
                 </div>
               </div>
             </div>
-            <div class="container section-nav-projects__next-image section-fullheight__inner">
+            <!-- <div class="container section-nav-projects__next-image section-fullheight__inner">
               <div class="section-nav-projects__wrapper-image js-transition-img overflow">
                 <div class="lazy js-transition-img__transformed-el"><img class="of-cover" src="#" data-src="img/assets/projects/project-13_vertical.jpg" alt="" width="1280" height="1920"/></div>
               </div>
-            </div>
+            </div> -->
             <div class="section-fullheight__inner hidden"></div>
           </section>
           <!-- - section NAV PROJECTS -->
