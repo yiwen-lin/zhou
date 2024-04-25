@@ -11286,3 +11286,9 @@ small, .small {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+
+.about-p p {
+  font-size: 16px;
+  font-weight: 300;
+}
