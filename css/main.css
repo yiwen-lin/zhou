@@ -131,7 +131,7 @@
 :root {
   /* Fonts */
   --font-primary: "Raleway", "Noto Serif TC",sans-serif;
-  --font-secondary: "Cinzel", "Noto Sans TC",serif;
+  --font-secondary: "Cinzel", "Noto Serif TC",serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
